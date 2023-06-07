@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 2rem;
+    background-image: url("https://w0.peakpx.com/wallpaper/601/760/HD-wallpaper-apple-macbook-laptop-on-black-background-modern-technology-laptop-apple.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.picture img {
+    width: 200px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 0;
+    border-radius: 8rem;
+}
+
+.name {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.description {
+    width: 50vw;
+    box-shadow: 0 0 5px #666;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.projects {
+    margin: 1rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects h3 {
+    margin-bottom: 1rem;
+}
+
+.game-js {
+    width: 60vw;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px #afafaf;
+}
+
+.game-js a {
+    color: black;
+    text-decoration: none;
+}
+
+.game-js a:hover {
+    color: #666
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+#image-container {
+    width: 50px;
+    height: 50px;
+}
